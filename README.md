@@ -1,9 +1,9 @@
 # Unifying-Photometric-Stereo-and-Active-Stereo-for-Surface-Reconstruction# Unifying Photometric Stereo and Active Stereo for Surface Reconstruction
 This git repository accompanies the master's thesis 
 
-![normals](figures/normalmap.png)
+![normals](figures/33_NearLS.png)
 
-![mesh](figures/mesh.png)
+![mesh](figures/buddha_NLS_front_crop.png)
 ## Installation
 
 This repository is depnedent on the following python packages:
