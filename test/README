@@ -1,0 +1,19 @@
+To run the test pipeline do the following:
+
+# 1
+Create a test config file and put it in /test/configs and save as a .yaml file (see others for setup)
+remember to specify
+- path to scene file for generating synthetic dataset
+- path to dataset folder
+- path to results folder
+
+
+# 2
+Change config file path in normals_test.py
+
+# 3
+cd to the main directory
+
+# 4
+run script with
+/python3 custom_tests.py

@@ -1,0 +1,22 @@
+# Paths
+scene: ./data/bunny_difuseWide_3lights/Scene.xml
+dataPath: "./data/bunny_difuseWide_3lights/"
+resultsPath: "./results/difuseWide_3lights/"
+
+# Settings
+generateImages: True
+useMetaSegment: True
+useSyntheticData: True
+useCachedData: True
+numLights: 3
+
+# Depth noise
+addDepthNoise: False
+noiseSigma: 0.002
+
+# depth normal fusion settings
+lambda_p: 0.1 #0.1
+lambda_n: 0.9 #0.9
+lambda_s: 0 #0.01 or 0.1
+dnfmode: 'CentralWithFB'
+sigma: 0.2
